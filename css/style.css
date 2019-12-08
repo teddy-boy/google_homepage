@@ -1,14 +1,26 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* MAIN CONTENT */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
 img {
     display: block;
     margin: auto;
     position: relative;
-    top: 200px;
+    padding-top: 110px;;
+}
+form {
+    padding-top: 20px;
 }
 input[type="text"] {
     display: block;
     margin: auto;
-    position: relative;
-    top: 220px;
     width: 487px;
     height: 44px;
     border-radius: 25px;
@@ -18,8 +30,6 @@ input[type="text"] {
 .btn {
     margin: auto;
     text-align: center;
-    position: relative;
-    top: 249px;
 }
 input[type="button"] {
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
@@ -27,9 +37,7 @@ input[type="button"] {
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
+    margin: 20px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -39,19 +47,22 @@ input[type="button"] {
     user-select: none;
 }
 
-ul {
+/* NAVBAR */
+.navbar {
+    height: 40px;
+}
+.navbar ul {
     display: block;
     position: absolute;
-    top: 0px;
+    top: 10px;
     right: 20px;
 }
-li {
+.navbar ul li {
     display: inline-block;
     list-style: none;
     margin: 0 5px;
 }
-li a {
-    text-decoration: none;
+.navbar ul li a {
     color: black;
     font-size: 0.8rem;;
 }
@@ -65,8 +76,45 @@ li a {
     top: 10px;
 }
 #sign-in {
-        padding: 4px;
+        padding: 8px 12px;
         background: -webkit-linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
         color: white;
         border-radius: 2px;
+        font-weight: 700;
+}
+
+/* FOOT BAR */
+.ftbar {
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+    rgb(242, 242, 242);
+    width: 100%;
+}
+
+.ftbar ul {
+    display: block;
+    position: absolute;
+    right: 20px;
+}
+
+.left-ftbar {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+
+.right-ftbar {
+    position: absolute;
+    top: 12px;
+}
+
+.left-ftbar li, .right-ftbar li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.ftbar a {
+    color: #5f6368;
 }
