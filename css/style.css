@@ -9,8 +9,8 @@ input[type="text"] {
     margin: auto;
     position: relative;
     top: 220px;
-    width: 450px;
-    height: 45px;
+    width: 487px;
+    height: 44px;
     border-radius: 25px;
     padding-left: 40px;
     border: 1px solid lightgray;
@@ -22,9 +22,21 @@ input[type="text"] {
     top: 249px;
 }
 input[type="button"] {
-    margin: 0 4px;
-    padding: 8px 4px;
-    color: rgb(63, 63, 63);
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 ul {
